@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4C9B5B2250AE1E00B17411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C9B5A2250AE1E00B17411 /* AppDelegate.swift */; };
+		0A4C9B5D2250AE1E00B17411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C9B5C2250AE1E00B17411 /* ViewController.swift */; };
+		0A4C9B602250AE1E00B17411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C9B5E2250AE1E00B17411 /* Main.storyboard */; };
+		0A4C9B622250AE2200B17411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C9B612250AE2200B17411 /* Assets.xcassets */; };
+		0A4C9B652250AE2200B17411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C9B632250AE2200B17411 /* LaunchScreen.storyboard */; };
+		0A4C9B702250AE2200B17411 /* softcallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C9B6F2250AE2200B17411 /* softcallTests.swift */; };
+		0A4C9B7B2250AE2200B17411 /* softcallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C9B7A2250AE2200B17411 /* softcallUITests.swift */; };
+		0A4C9B892250B16000B17411 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C9B882250B16000B17411 /* APIManager.swift */; };
+		E9CD69204087355C4E5AFB53 /* Pods_softcall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDEFFE511C284952E8289C0 /* Pods_softcall.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4C9B6C2250AE2200B17411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4C9B4F2250AE1E00B17411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4C9B562250AE1E00B17411;
+			remoteInfo = softcall;
+		};
+		0A4C9B772250AE2200B17411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4C9B4F2250AE1E00B17411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4C9B562250AE1E00B17411;
+			remoteInfo = softcall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4C9B572250AE1E00B17411 /* softcall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = softcall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4C9B5A2250AE1E00B17411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4C9B5C2250AE1E00B17411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A4C9B5F2250AE1E00B17411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4C9B612250AE2200B17411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A4C9B642250AE2200B17411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A4C9B662250AE2200B17411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4C9B6B2250AE2200B17411 /* softcallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = softcallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4C9B6F2250AE2200B17411 /* softcallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = softcallTests.swift; sourceTree = "<group>"; };
+		0A4C9B712250AE2200B17411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4C9B762250AE2200B17411 /* softcallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = softcallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4C9B7A2250AE2200B17411 /* softcallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = softcallUITests.swift; sourceTree = "<group>"; };
+		0A4C9B7C2250AE2200B17411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4C9B882250B16000B17411 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0D6F12D21DC2995A62238614 /* Pods-softcall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-softcall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-softcall/Pods-softcall.debug.xcconfig"; sourceTree = "<group>"; };
+		33B1FCA10C97B449D1056C15 /* Pods-softcall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-softcall.release.xcconfig"; path = "Pods/Target Support Files/Pods-softcall/Pods-softcall.release.xcconfig"; sourceTree = "<group>"; };
+		8BDEFFE511C284952E8289C0 /* Pods_softcall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_softcall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4C9B542250AE1E00B17411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9CD69204087355C4E5AFB53 /* Pods_softcall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C9B682250AE2200B17411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C9B732250AE2200B17411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4C9B4E2250AE1E00B17411 = {
+			isa = PBXGroup;
+			children = (
+				0A4C9B592250AE1E00B17411 /* softcall */,
+				0A4C9B6E2250AE2200B17411 /* softcallTests */,
+				0A4C9B792250AE2200B17411 /* softcallUITests */,
+				0A4C9B582250AE1E00B17411 /* Products */,
+				6F1F699CF3B42752EC29733E /* Pods */,
+				0C88E12075C836F1804B667A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4C9B582250AE1E00B17411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C9B572250AE1E00B17411 /* softcall.app */,
+				0A4C9B6B2250AE2200B17411 /* softcallTests.xctest */,
+				0A4C9B762250AE2200B17411 /* softcallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4C9B592250AE1E00B17411 /* softcall */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C9B882250B16000B17411 /* APIManager.swift */,
+				0A4C9B5A2250AE1E00B17411 /* AppDelegate.swift */,
+				0A4C9B5C2250AE1E00B17411 /* ViewController.swift */,
+				0A4C9B5E2250AE1E00B17411 /* Main.storyboard */,
+				0A4C9B612250AE2200B17411 /* Assets.xcassets */,
+				0A4C9B632250AE2200B17411 /* LaunchScreen.storyboard */,
+				0A4C9B662250AE2200B17411 /* Info.plist */,
+			);
+			path = softcall;
+			sourceTree = "<group>";
+		};
+		0A4C9B6E2250AE2200B17411 /* softcallTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C9B6F2250AE2200B17411 /* softcallTests.swift */,
+				0A4C9B712250AE2200B17411 /* Info.plist */,
+			);
+			path = softcallTests;
+			sourceTree = "<group>";
+		};
+		0A4C9B792250AE2200B17411 /* softcallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C9B7A2250AE2200B17411 /* softcallUITests.swift */,
+				0A4C9B7C2250AE2200B17411 /* Info.plist */,
+			);
+			path = softcallUITests;
+			sourceTree = "<group>";
+		};
+		0C88E12075C836F1804B667A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDEFFE511C284952E8289C0 /* Pods_softcall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F1F699CF3B42752EC29733E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F12D21DC2995A62238614 /* Pods-softcall.debug.xcconfig */,
+				33B1FCA10C97B449D1056C15 /* Pods-softcall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4C9B562250AE1E00B17411 /* softcall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4C9B7F2250AE2200B17411 /* Build configuration list for PBXNativeTarget "softcall" */;
+			buildPhases = (
+				4F65307CF424F37DA8220DBE /* [CP] Check Pods Manifest.lock */,
+				0A4C9B532250AE1E00B17411 /* Sources */,
+				0A4C9B542250AE1E00B17411 /* Frameworks */,
+				0A4C9B552250AE1E00B17411 /* Resources */,
+				CC7584101E32736A4570AC37 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = softcall;
+			productName = softcall;
+			productReference = 0A4C9B572250AE1E00B17411 /* softcall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4C9B6A2250AE2200B17411 /* softcallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4C9B822250AE2200B17411 /* Build configuration list for PBXNativeTarget "softcallTests" */;
+			buildPhases = (
+				0A4C9B672250AE2200B17411 /* Sources */,
+				0A4C9B682250AE2200B17411 /* Frameworks */,
+				0A4C9B692250AE2200B17411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4C9B6D2250AE2200B17411 /* PBXTargetDependency */,
+			);
+			name = softcallTests;
+			productName = softcallTests;
+			productReference = 0A4C9B6B2250AE2200B17411 /* softcallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A4C9B752250AE2200B17411 /* softcallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4C9B852250AE2200B17411 /* Build configuration list for PBXNativeTarget "softcallUITests" */;
+			buildPhases = (
+				0A4C9B722250AE2200B17411 /* Sources */,
+				0A4C9B732250AE2200B17411 /* Frameworks */,
+				0A4C9B742250AE2200B17411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4C9B782250AE2200B17411 /* PBXTargetDependency */,
+			);
+			name = softcallUITests;
+			productName = softcallUITests;
+			productReference = 0A4C9B762250AE2200B17411 /* softcallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4C9B4F2250AE1E00B17411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "sad boi studios";
+				TargetAttributes = {
+					0A4C9B562250AE1E00B17411 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0A4C9B6A2250AE2200B17411 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0A4C9B562250AE1E00B17411;
+					};
+					0A4C9B752250AE2200B17411 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0A4C9B562250AE1E00B17411;
+					};
+				};
+			};
+			buildConfigurationList = 0A4C9B522250AE1E00B17411 /* Build configuration list for PBXProject "softcall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4C9B4E2250AE1E00B17411;
+			productRefGroup = 0A4C9B582250AE1E00B17411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4C9B562250AE1E00B17411 /* softcall */,
+				0A4C9B6A2250AE2200B17411 /* softcallTests */,
+				0A4C9B752250AE2200B17411 /* softcallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4C9B552250AE1E00B17411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4C9B652250AE2200B17411 /* LaunchScreen.storyboard in Resources */,
+				0A4C9B622250AE2200B17411 /* Assets.xcassets in Resources */,
+				0A4C9B602250AE1E00B17411 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C9B692250AE2200B17411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C9B742250AE2200B17411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F65307CF424F37DA8220DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-softcall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7584101E32736A4570AC37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-softcall/Pods-softcall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-softcall/Pods-softcall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4C9B532250AE1E00B17411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4C9B892250B16000B17411 /* APIManager.swift in Sources */,
+				0A4C9B5D2250AE1E00B17411 /* ViewController.swift in Sources */,
+				0A4C9B5B2250AE1E00B17411 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C9B672250AE2200B17411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4C9B702250AE2200B17411 /* softcallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C9B722250AE2200B17411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4C9B7B2250AE2200B17411 /* softcallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4C9B6D2250AE2200B17411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4C9B562250AE1E00B17411 /* softcall */;
+			targetProxy = 0A4C9B6C2250AE2200B17411 /* PBXContainerItemProxy */;
+		};
+		0A4C9B782250AE2200B17411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4C9B562250AE1E00B17411 /* softcall */;
+			targetProxy = 0A4C9B772250AE2200B17411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A4C9B5E2250AE1E00B17411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4C9B5F2250AE1E00B17411 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4C9B632250AE2200B17411 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4C9B642250AE2200B17411 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4C9B7D2250AE2200B17411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A4C9B7E2250AE2200B17411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4C9B802250AE2200B17411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6F12D21DC2995A62238614 /* Pods-softcall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9CFZ33HT;
+				INFOPLIST_FILE = softcall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sad-boi-studios.softcall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4C9B812250AE2200B17411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B1FCA10C97B449D1056C15 /* Pods-softcall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9CFZ33HT;
+				INFOPLIST_FILE = softcall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sad-boi-studios.softcall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A4C9B832250AE2200B17411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = softcallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sad-boi-studios.softcallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/softcall.app/softcall";
+			};
+			name = Debug;
+		};
+		0A4C9B842250AE2200B17411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = softcallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sad-boi-studios.softcallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/softcall.app/softcall";
+			};
+			name = Release;
+		};
+		0A4C9B862250AE2200B17411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = softcallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sad-boi-studios.softcallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = softcall;
+			};
+			name = Debug;
+		};
+		0A4C9B872250AE2200B17411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = softcallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sad-boi-studios.softcallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = softcall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4C9B522250AE1E00B17411 /* Build configuration list for PBXProject "softcall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4C9B7D2250AE2200B17411 /* Debug */,
+				0A4C9B7E2250AE2200B17411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4C9B7F2250AE2200B17411 /* Build configuration list for PBXNativeTarget "softcall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4C9B802250AE2200B17411 /* Debug */,
+				0A4C9B812250AE2200B17411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4C9B822250AE2200B17411 /* Build configuration list for PBXNativeTarget "softcallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4C9B832250AE2200B17411 /* Debug */,
+				0A4C9B842250AE2200B17411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4C9B852250AE2200B17411 /* Build configuration list for PBXNativeTarget "softcallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4C9B862250AE2200B17411 /* Debug */,
+				0A4C9B872250AE2200B17411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4C9B4F2250AE1E00B17411 /* Project object */;
+}
